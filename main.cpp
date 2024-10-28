@@ -29,7 +29,7 @@ int main() {
     while (fin1 >> colors[i++]);
     fin1.close();
     list<Goat> trip;
-
+    again = true;
     while (again) {
         int choice = main_menu();
         switch (choice) {
